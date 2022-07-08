@@ -1,0 +1,221 @@
+*INDEX.PHP*/
+body {
+    background: linear-gradient(132deg, #f44336, #E91E63, #9C27B0, #673AB7, #3F51B5, #2196F3,#03A9F4, #00BCD4, #009688, #4CAF50, #FFC107, #FF9800, #f44336, #E91E63, #9C27B0, #673AB7, #3F51B5, #2196F3,#03A9F4, #00BCD4, #009688, #4CAF50, #FFC107, #FF9800);
+    background-size: 400% 400%;
+    animation: BackgroundGradient 30s ease infinite;
+}
+
+
+
+
+.estiloindex{
+    font-family: 'Patrick Hand', cursive;
+    border: solid rgb(145, 67, 148);
+    border-width: 5px;
+    text-align: center;
+    margin: 60px;
+    padding: 100px; 
+    height: 200px;
+    width: 400px;
+    margin: auto;
+    background-color: rgb(182, 174, 184);
+    font-size: 20px;
+    color: #673AB7;
+
+}
+
+.input_index_text{
+    text-decoration: none;
+    background-color: #a17ba7;
+    color: white;
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+ 
+ .boton2{
+    text-decoration: none;
+    background-color: #a17ba7;
+    color: white;
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+ }
+
+ .caja{
+    width: 200px;
+    height: 30px;
+   
+ }
+
+
+/*ACCESO.PHP*/
+
+
+
+.h1_acceso{
+    text-align: center;
+    background-color: rgb(145, 106, 138);
+    padding: 10px;
+    color: white;
+    
+}
+
+.tabla_acceso{
+    
+   
+    background-color: bisque;
+    padding: 100px;
+    width: 500px ;
+    height: 300px;
+    border: solid rgb(135, 97, 148);
+    text-align: center;   
+    float: center; 
+    margin: 0 auto;
+}
+
+.a_acceso{
+    text-decoration: none;
+    color: white;
+    padding: 70px;
+    background-color: rgb(125, 82, 139);
+    border: solid rgb(116, 44, 116);
+    line-height: 100px;
+    font-size: 25px;
+   
+
+ }
+
+.volver_acceso{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: rgb(133, 94, 146);
+    border: solid purple ;
+    text-align:right;
+    line-height: 200px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+/*ESTILOS ARTÍCULOS*/
+
+
+table{
+        width: 100%;
+}
+table, th, td{
+        border: 1px solid black;
+        border-collapse:collapse;
+        /*border-spacing: 5px;*/
+        padding: 5px;
+    
+}
+    
+td{
+        text-align: center;}
+    
+    
+th{
+        color: #f1faee;
+        background-color: #ac5e9f;
+}
+ /*Renglones pares*/
+    tr:nth-child(even){
+        background-color:#f1faee;
+ }
+    
+/*Renglones impares*/
+    tr:nth-child(odd){
+        background-color: #b09dcf;
+}
+
+
+.boton {
+    text-decoration: none;
+    background-color: #a17ba7;
+    color: black;
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.boton1{
+    text-decoration: none;
+    background-color: hsl(292, 20%, 57%);
+    color: black;
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.boton4{
+    text-decoration: none;
+    background-color: hsl(292, 20%, 57%);
+    color: black;
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.estiloindex1{
+    font-family: 'Patrick Hand', cursive;
+    
+    border-width: 5px;
+    text-align: center;
+    margin: 60px;
+    padding: 100px; 
+    height: 200px;
+    width: 400px;
+    margin: auto;
+    background-color: rgb(182, 174, 184);
+    font-size: 20px;
+    color: #673AB7;
+}
+
+.h2_acceso{
+    text-align: center;
+    background-color: rgb(145, 106, 138);
+    padding: 10px;
+    color: white;
+    
+}
+
+/* ESTILOS USUARIOS.PHP */
+.inline td form{
+    display: inline-block;
+}
+
+.cabecero{
+    color: #9a60a3;
+}
+
+.linea{
+    border-radius: 4px;
+    width: 200px;
+    height: 20px;
+    
+}
+.linea1{
+    border-radius: 6px;
+    width: 200px;
+    height: 30px;
+}
+.boton3 {
+    text-decoration: none;
+    background-color: #a17ba7;
+    color: black;
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
